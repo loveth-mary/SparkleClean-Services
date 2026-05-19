@@ -175,76 +175,90 @@
         </div>
     </section>
 
-    <form action="contact">
+    <form class="form-container">
         <h2>We Are At Your Service</h2>
-        <label for="name">Name</label>
-        <input type="text" placeholder="First" id="name">
-        <input type="text" placeholder="Last" id="name">
 
-        <label for="email">Email</label>
-        <input type="email" id="email">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" placeholder="First" id="name">
+            <input type="text" placeholder="Last" id="name">
 
-        <label for="tel">Phone Number</label>
-        <input type="tel" id="tel">
+            <label for="email">Email</label>
+            <input type="email" id="email">
 
-        <label for="address">Address</label>
-        <input type="text" id="address">
+            <label for="tel">Phone Number</label>
+            <input type="tel" id="tel">
 
-        <label for="info">Other information</label>
-        <textarea id="info"></textarea>
+            <label for="address">Address</label>
+            <input type="text" id="address">
 
-        <label>Services</label>
-        <label><input type="checkbox">Post-Construction Cleaning</label>
-        <label><input type="checkbox">Office Cleaning</label>
-        <label><input type="checkbox">Residential Cleaning</label>
-        <label><input type="checkbox">Deep Cleaning</label>
-        <label><input type="checkbox">property Maintenance</label>
-        <label><input type="checkbox">Floor Polishing & Surface Care</label>
-        <label><input type="checkbox">Move-In / Move-Out Cleaning</label>
-        <label><input type="checkbox">Pest Control & Fumigation</label>
-        <label><input type="checkbox">Hygiene & Sanitization</label>
-        <label><input type="checkbox">Workplace Health & Safety</label>
-        <label><input type="checkbox">Industrial Cleaning</label>
-        <label><input type="checkbox">Window & Glass Cleaning</label>
+            <label for="info">Other information</label>
+            <textarea id="info"></textarea>
+        </div>
+
+        <h3>Services</h3>
+
+        <div class="services">
+            <label><input type="checkbox">Post-Construction Cleaning</label>
+            <label><input type="checkbox">Office Cleaning</label>
+            <label><input type="checkbox">Residential Cleaning</label>
+            <label><input type="checkbox">Deep Cleaning</label>
+            <label><input type="checkbox">property Maintenance</label>
+            <label><input type="checkbox">Floor Polishing & Surface Care</label>
+            <label><input type="checkbox">Move-In / Move-Out Cleaning</label>
+            <label><input type="checkbox">Pest Control & Fumigation</label>
+            <label><input type="checkbox">Hygiene & Sanitization</label>
+            <label><input type="checkbox">Workplace Health & Safety</label>
+            <label><input type="checkbox">Industrial Cleaning</label>
+            <label><input type="checkbox">Window & Glass Cleaning</label>          
+        </div>
         
         <button type="submit">Submit</button>
     </form>
 
     <footer>
-        <h2>Services</h2>
-        <p>Post-Construction Cleaning</p>
-        <p>Industrial and Deep Cleaning</p>
-        <p>Office Cleaning Services</p>
-        <p>Cleaning Staff Training & Support</p>
-        <p>Rrnovation Cleanup Services</p>
-        <p>Post Control & Fumigation</p><hr>
+        <div footer-services>
+            <h2>Services</h2>
+            <p>Post-Construction Cleaning</p>
+            <p>Industrial and Deep Cleaning</p>
+            <p>Office Cleaning Services</p>
+            <p>Cleaning Staff Training & Support</p>
+            <p>Rrnovation Cleanup Services</p>
+            <p>Post Control & Fumigation</p>
+        </div>
 
-        <h2>Get In Touch</h2>
+        <div class="footer-connect">
+            <h2>Get In Touch</h2>
 
-        <a href="">sparklecleanservices@gmail.com</a>
-        <p>(+234)8123456789</p><hr>
+            <a class="contact-item"><span><i class="fa-solid fa-envelope"></i></span>sparklecleanservices@gmail.com</a>
+            
+            <p class="contact-item"><i class="fa-solid fa-phone"></i></span>(+234)8143075874</p>
 
-        <h2>Connect With Us</h2>
+            <h2>Connect With Us</h2>
 
-        <div class="connect">
-            <div>
-                <p>Enugu, Nigeria</p>
-                <p>(+234)8123456789</p>
-                <a href="">sparklecleanservices@gmail.com</a>
-                <a href="">info@sparkleclean.com</a>
-            </div>
+            <div class="connect">
+                <div>
+                    <p>Enugu, Nigeria</p>
 
-            <div>
-                <h2>Get Social With Us</h2>
+                    <p class="contact-item"><span><i class="fa-solid fa-phone"></i></span>(+234)8143075874</p>
 
-                <i class="fab fa-facebook" style="color: red;"></i>
-                <i class="fab fa-instagram" style="color: red;"></i>
-                <i class="fab fa-twitter" style="color: red;"></i>
-                <i class="fab fa-whatsapp" style="color: red;"></i>
+                    <p><a class="contact-item"><span><i class="fa-solid fa-envelope"></i></span>sparklecleanservices@gmail.com</a></p>
+
+                    <p><a class="contact-item"><span><i class="fa-solid fa-envelope"></i></span>info@sparkleclean.com</a></p>
+                </div>
+
+                <div class="socials-icons">
+                    <h2>Get Social With Us</h2>
+
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
             </div>
         </div>
-        
-        <p>&copy 2026 SparkleClean Services | Designed & Developed by SparkleClean</p>
+
+        <p>&copy 2026 SparkleClean Services | Designed & Developed by <span class="developer">SparkleClean</span></p>
     </footer>
 </body>
 </html>
