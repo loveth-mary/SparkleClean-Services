@@ -284,8 +284,8 @@ footer {
 
 @media (max-width: 760px) {
     /* Hero section */
-    * {
-        overflow: hidden;
+    header ul {
+        display: none;
     }
     .hero {
         display: flex;
