@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: mintcream;
+    background-color: white;
 }
 
 /* styling header */
@@ -138,6 +138,8 @@ header i {
     color: white;
     margin: 30px 20px 20px 20px;
     line-height: 1.6;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25)
 }
 
 .card-1-3, .card-3-1 {
@@ -201,6 +203,9 @@ header i {
 .form-container {
     width: 20%;
     margin: 0 auto;
+    background-color: #F8F9FA;
+    border-radius: 12PX;
+    padding: 20PX;
 }
 
 .form-group {
@@ -209,15 +214,21 @@ header i {
 }
 
 .form-group input {
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid rgb(214, 207, 207);
+    border: 1px solid rgb(141, 136, 136);
+    background-color: #FFFFFF;
+    border: 1PX solid #D6DCE5;
+    border-radius: 8PX;
 }
 
 .form-group textarea {
     width: 30%;
     padding: 30px;
-    border: 1px solid rgb(214, 207, 207);
+    border: 1px solid rgb(141, 136, 136);
+    background-color: #FFFFFF;
+    border: 1PX solid #D6DCE5;
+    border-radius: 8PX;
 }
 
 .form-group label {
@@ -290,10 +301,10 @@ footer {
 /* Styling for Responsive design */
 
 @media (max-width: 760px) {
-    /* header ul { 
+    header ul { 
         display: none;
-    }*/
-    
+    }
+
     /* Hero section */
     .hero {
         display: flex;
