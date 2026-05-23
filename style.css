@@ -32,7 +32,7 @@ header i {
     justify-content: center;
     align-items: flex-start;
     gap: 0;
-    background-color: rgb(41, 88, 158);
+    background-color: #1E3A5F;
     margin-top: 10px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -57,7 +57,7 @@ header i {
 
 /* Styling the hero section */
 .hero {
-    background-color: rgb(41, 88, 158);
+    background-color: #1E3A5F;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -90,12 +90,12 @@ header i {
 .hero-image img {
     width: 150px;
     height: 110px;
-    border-radius: 8px;
+    border-radius: 10px;
     object-fit: cover;
 }
 
 .hero-text button {
-    background-color: rgb(28, 78, 78);
+    background-color: #4A6572;
     color: white;
     padding: 15px 20px;
     font-weight: bold;
@@ -130,7 +130,7 @@ header i {
 }
 
 .card-1-1, .card-1-2, .card-2-1, .card-2-2, .card-2-3, .card-3-2, .card-3-3 {
-    background-color: rgb(28, 78, 78);
+    background-color: #4A6572;
     border-radius: 30px;
     text-align: center;
     height: 500px;
@@ -140,22 +140,16 @@ header i {
     line-height: 1.6;
 }
 
-.card-1-3 {
-    margin-top: 150px;
+.card-1-3, .card-3-1 {
+    margin-top: 50px;
     font-size: 25px;
     padding-right: 30px;
-}
-
-.card-3-1 {
-    margin-top: 180px;
-    font-size: 25px;
-    padding-left: 30px;
 }
 
 
 /* Styling the why-choose section */
 .container {
-    background-color: rgb(28, 78, 78);
+    background-color: #4A6572;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -246,7 +240,7 @@ header i {
 
 /* Styling the footer */
 footer {
-    background-color: rgb(28, 78, 78);
+    background-color: #4A6572;
     color: white;
     margin-top: 50px;
     display: grid;
@@ -275,7 +269,83 @@ footer {
     gap: 8px;
 }
 
+.closing {
+    margin-top: 50px;
+}
+
 .developer {
     color: yellow;
     cursor: pointer;
+}
+
+
+
+/* Styling for Responsive design */
+
+@media (max-width: 770px) {
+    /* Hero section */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+    }
+
+    .hero-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Main section */
+    .main h2 {
+        text-align: left;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .card-1, .card-2, .card-3, .container, footer, .left-text, .right-text, .right-image {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card-1-1, .card-1-2, .card-2-1, .card-2-2, .card-2-3, .card-3-2, .card-3-3 {
+        margin: 10px 0;
+    }
+
+    .card-1-3, .card-3-1 {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+
+    /* Why-choose section */
+    .container {
+        margin-top: 20px;
+    }
+
+    .left, .right {
+        margin: 20px;
+    }
+
+    .container img {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+
+    /* Form section */
+    .form-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
