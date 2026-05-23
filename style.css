@@ -211,6 +211,13 @@ header i {
 .form-group input {
     padding: 10px;
     margin-bottom: 15px;
+    border: 1px solid rgb(214, 207, 207);
+}
+
+.form-group textarea {
+    width: 30%;
+    padding: 30px;
+    border: 1px solid rgb(214, 207, 207);
 }
 
 .form-group label {
@@ -283,10 +290,11 @@ footer {
 /* Styling for Responsive design */
 
 @media (max-width: 760px) {
-    /* Hero section */
-    header ul {
+    /* header ul { 
         display: none;
-    }
+    }*/
+    
+    /* Hero section */
     .hero {
         display: flex;
         flex-direction: column;
