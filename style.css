@@ -5,6 +5,10 @@ body {
     background-color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* styling header */
 header {
     display: flex;
