@@ -474,7 +474,7 @@ footer {
 
     /* About page */
     .about-image {
-        max-width: 600px;
+        width: 250px;
         height: auto;
         display: block;
         margin: 0 auto;
