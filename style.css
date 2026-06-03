@@ -372,10 +372,12 @@ footer {
 /* Styling About Us Page */
 .about-image img {
     width: 90%;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
     display: block;
     padding-left: 30px;
     margin-top: 40px;
+    
 }
 
 .about-text {
