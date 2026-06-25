@@ -24,11 +24,33 @@ a {
     color: black;
 }
 
-/* header i {
-    padding: 30px 20px 20px 20px;
-    font-size: 25px;
+.navbar {
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 2;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 1s ease;
+}
+
+.navbar.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.hamburger {
+    font-size: 1.8rem;
     cursor: pointer;
-} */
+    margin-left: 30px;
+    margin-top: 20px;
+}
 
 summary {
     display: flex;
@@ -44,11 +66,12 @@ summary {
 
 .dropdown-menu {
     padding-left: 15px;
-    margin-top: 15px;
+    padding-right: 15px;
 }
 
 .dropdown-menu li {
-    margin: 8px 0;
+    margin: 5px 0;
+    font-size: 15px;
 }
 
 .logo {
@@ -61,13 +84,12 @@ summary {
     margin-top: 10px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    padding: 0 20px;
+    padding: 0 20px 10px 20px;
     color: white;
 }
 
 .logo h1, .logo p, .logo .reg {
     margin: 0;
-    padding: 0;
     line-height: 0.8;
 }
 
@@ -334,7 +356,6 @@ footer {
     text-align: center;
     font-weight: 700;
     font-size: 2.5rem;
-    position: relative;
 }
 
 .services-container p {
@@ -393,10 +414,7 @@ footer {
 /* Styling for Responsive design */
 
 @media (max-width: 760px) {
-    /* header ul { 
-        display: none;
-    } */
-
+    
     /* Hero section */
     .hero {
         display: flex;

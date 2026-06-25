@@ -9,33 +9,35 @@
 </head>
 <body>
     <header>
-        <!-- <div><i class="fa-solid fa-bars"></i></div> -->
+        
+        <i class="fa-solid fa-bars hamburger" 
+        onclick="toggleMenu()"></i>
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="services-dropdown">
-                <details>
-                    <summary>Services<span class="arrow">&#9662</span></summary>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="services-dropdown">
+                    <details>
+                        <summary>Services<span class="arrow">&#9662</span></summary>
 
-                    <ul class="dropdown-menu">
-                        <li><a href="services/residential.html">Residential Cleaning</a></li>
+                        <ul class="dropdown-menu">
+                            <li><a href="services/residential.html">Residential Cleaning</a></li>
 
-                        <li><a href="services/commercial.html">Commercial Cleaning</a></li>
+                            <li><a href="services/commercial.html">Commercial Cleaning</a></li>
 
-                        <li><a href="services/industrial.html">Industrial Cleaning</a></li>
+                            <li><a href="services/industrial.html">Industrial Cleaning</a></li>
 
-                        <li><a href="services/maintenance.html">Property Maintenance</a></li>
+                            <li><a href="services/maintenance.html">Property Maintenance</a></li>
 
-                        <li><a href="services/pest-control.html">Pest Control</a></li>
-                    </ul>
-                </details>
-                
-
-                
-            </li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
+                            <li><a href="services/pest-control.html">Pest Control</a></li>
+                        </ul>
+                    </details>     
+                </li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+            
 
         <div class="logo">
             <p class="reg">&reg</p>
@@ -43,6 +45,7 @@
             <p>...keeping it clean</p>
         </div>
     </header>
+
 
     <section class="hero">
         <div class="hero-text">
@@ -283,5 +286,8 @@
 
         <p class="closing">&copy 2026 SparkleClean Services | Designed & Developed by <span class="developer">SparkleClean</span></p>
     </footer>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
