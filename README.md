@@ -38,8 +38,23 @@ https://github.com/loveth-mary/SparkleClean-Services
 
 Project Status
 
-✅ Completed
+✅ Completed (can still revisit in the future when i learn new things)
 
 Author
 
 Loveth Mary
+
+
+
+
+## Recent Update - June 2026
+
+- Added JavaScript menu toggle functionality
+- Added hamburger-to-close (X) icon switching
+- Improved mobile navigation experience
+- Adjusted menu spacing and alignment for better usability
+
+Technologies used:
+- HTML
+- CSS
+- JavaScript
